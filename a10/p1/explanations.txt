@@ -1,0 +1,25 @@
+/* 
+   CH-230-A 
+   a10_p1.txt
+   Rumen Mitov
+   rmitov@jacobs-university.de 
+*/
+
+a)
+    I get 'not-in-scope' errors, because classes like 'string' are not
+    declared in the scope and without 'namespace std' the compiler
+    does not know that we want to use 'std::string' for example.
+
+    An alternate way to fix this issue is to prefix standard 
+    objects with 'std::'.
+
+b) 
+
+    Removed 'Critter::' from the method 'setName'. I get the error 'name' not
+    not in scope. This is because the compiler does not know that we want to
+    use 'name' from the 'Critter' class.
+
+    You cannot fix the issue by prefixing 'name' with 'Critter' because
+    the property 'name' is private and it can only be accessed through class
+    methods.
+

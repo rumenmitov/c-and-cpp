@@ -1,0 +1,4 @@
+sum=15.000000
+difference=-5.000000
+product=50.000000
+division=0.500000

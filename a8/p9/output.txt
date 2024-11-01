@@ -1,0 +1,9 @@
+Concating the content of 3 files...
+The result is:
+The first file's
+content.
+The second file's content.
+The 
+third file's 
+content.
+The result was written into output.txt
